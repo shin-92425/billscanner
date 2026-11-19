@@ -1,0 +1,9 @@
+usd_5
+usd_20
+eur_10
+usd_1
+eur_5
+eur_20
+php_100
+php_500
+php_1000

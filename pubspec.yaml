@@ -1,0 +1,24 @@
+name: bill_scanner
+description: Offline currency identifier (PHP 100/500/1000, USD 1/5/20, EUR 5/10/20) using an on-device YOLO model and the phone camera.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.12.0+2
+  flutter_vision: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    # Put your trained model.tflite and labels.txt in this folder (see README.md).
+    - assets/
