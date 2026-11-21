@@ -8,7 +8,7 @@ class AppConfig {
 
   /// Detections below this confidence (0..1) are ignored.
   /// Raise it if you get false detections, lower it if real bills are missed.
-  static const double minConfidence = 0.55;
+  static const double minConfidence = 0.80;
 
   /// Ignore tiny boxes: the box must cover at least this fraction of the
   /// camera image. Stops far-away objects from being read as a bill.
