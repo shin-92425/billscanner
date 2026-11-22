@@ -52,3 +52,15 @@ training/datasets/
 training/final_dataset/
 *.zip
 .setup_backup/
+
+# Bill Scanner extras
+build/
+.dart_tool/
+.venv/
+training/datasets/
+training/final_dataset/
+*.zip
+.setup_backup/
+key.properties
+*.jks
+*.keystore
